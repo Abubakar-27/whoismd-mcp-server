@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Env / secrets — the API key is always supplied via the environment
+.env
+.env.*
+!.env.example
+
+# Logs / misc
+npm-debug.log*
+*.log
+.DS_Store
