@@ -1,6 +1,6 @@
 # whoismd-mcp-server
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/abubakar-27/whoismd-mcp-server)](https://m8ven.ai/mcp/abubakar-27/whoismd-mcp-server)
+[![M8ven Live Monitored](https://m8ven.ai/badge/mcp/abubakar-27-whoismd-mcp-server-1d19tj)](https://m8ven.ai/mcp/abubakar-27-whoismd-mcp-server-1d19tj)
 
 Open-source native **MCP** (Model Context Protocol) server driver for
 [WhoisMD](https://whoismd.com) real-time internet intelligence routing.
