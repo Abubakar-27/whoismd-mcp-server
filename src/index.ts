@@ -183,6 +183,12 @@ export function createWhoisMdMcpServer(): McpServer {
       "SSRF-safe IP resolution, and a deterministic 0-100 threat risk score. " +
       "Returns a comprehensive JSON report.",
     lookupSchema,
+    {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: true,
+    },
     async (args) => {
       const { domain } = args;
       try {
@@ -213,6 +219,12 @@ export function createWhoisMdMcpServer(): McpServer {
       "the public WhoisMD API. Each entry is analyzed concurrently with bounded " +
       "parallelism. Returns per-domain success/failure results with risk scores.",
     bulkSchema,
+    {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: true,
+    },
     async (args) => {
       const { domains } = args;
       try {
