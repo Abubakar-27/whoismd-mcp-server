@@ -2,13 +2,21 @@
 
 [![M8ven Live Monitored](https://m8ven.ai/badge/mcp/abubakar-27-whoismd-mcp-server-1d19tj)](https://m8ven.ai/mcp/abubakar-27-whoismd-mcp-server-1d19tj)
 
-Open-source native **MCP** (Model Context Protocol) server driver for
-[WhoisMD](https://whoismd.com) real-time internet intelligence routing.
+> 🛡️ **Verified Agentic Trust:** Vetted by [M8ven](https://glama.ai) with a **89/100 Trust Score** for secure, sandbox-safe execution. 
 
-This server is an **unprivileged client driver**: it contains no engine code,
-no database access, and no proprietary historical data. Every tool call is
-delegated to the public WhoisMD REST API (`/v1/intel/lookup`) and is metered
-against your own `pg_live_...` API key credits.
+Open-source native **MCP** (Model Context Protocol) server driver for [WhoisMD](https://whoismd.com) real-time internet intelligence routing. Give your AI agents the ability to run deep network forensics, verify domains, and analyze cyber threats natively inside your IDE.
+
+🔑 **Get Your API Key:** This server acts as an unprivileged client driver. Every tool call is safely delegated to the public WhoisMD REST API (`/v1/intel/lookup`) and requires your own API credentials. [Create an account on the WhoisMD Dashboard to get your `pg_live_...` API key](https://whoismd.com).
+
+---
+
+## 🤖 How to Prompt Your AI Agent
+Once configured, you don't need to write code. Just talk to your AI agent (Cursor, Windsurf, Claude) naturally:
+* *"Check if this domain looks like a phishing variant of google.com using whoismd."*
+* *"Run a bulk infrastructure look up on these 10 domains to find their threat risk scores."*
+
+## Tools
+
 
 ## Tools
 
