@@ -2,6 +2,8 @@
 
 [![M8ven Live Monitored](https://m8ven.ai/badge/mcp/abubakar-27-whoismd-mcp-server-1d19tj)](https://m8ven.ai/mcp/abubakar-27-whoismd-mcp-server-1d19tj)
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/abubakar-27/whoismd-mcp-server)
+
 > 🛡️ **Verified Agentic Trust:** Vetted by [M8ven](https://glama.ai) with a **89/100 Trust Score** for secure, sandbox-safe execution. 
 
 Open-source native **MCP** (Model Context Protocol) server driver for [WhoisMD](https://whoismd.com) real-time internet intelligence routing. Give your AI agents the ability to run deep network forensics, verify domains, and analyze cyber threats natively inside your IDE.
@@ -14,8 +16,6 @@ Open-source native **MCP** (Model Context Protocol) server driver for [WhoisMD](
 Once configured, you don't need to write code. Just talk to your AI agent (Cursor, Windsurf, Claude) naturally:
 * *"Check if this domain looks like a phishing variant of google.com using whoismd."*
 * *"Run a bulk infrastructure look up on these 10 domains to find their threat risk scores."*
-
-## Tools
 
 
 ## Tools
